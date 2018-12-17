@@ -1,0 +1,28 @@
+a:link {
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited {
+    font-size: 2em;
+    color: maroon;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;   
+    background-color: lightgrey;
+}
+a:hover {
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: grey;
+}

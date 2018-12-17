@@ -1,0 +1,21 @@
+body {
+    border: solid yellow 1.5em;
+    border-radius: 20px;
+}
+
+h1 {
+    border-style: solid double solid double;
+    border-width: 0.5em 0.5em 0.5em 0.5em;
+    border-color: red green red green;
+    border-radius: 20px;
+}
+
+h3 {
+    border: double maroon 0.3em;
+    border-radius: 15px 0px 15px 0px;
+}
+
+p {
+    border: solid green 0.2em;
+    border-radius: 10px 0px 10px 0px;
+}

@@ -1,0 +1,15 @@
+ul.voordelen {
+  background-color: #eabfff;
+  padding: 20px 0px 20px 60px;
+  width: 40%;
+  list-style: inside circle none;
+}
+
+ul.voordelen li {
+  background-color: #d580ff;
+  padding: 10px;
+  color: #47006b;
+  border-width: 4px 0px 4px 0px;
+  border-color: black;
+  border-style: solid;
+}

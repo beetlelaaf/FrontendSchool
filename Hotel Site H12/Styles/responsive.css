@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  -webkit-background-size: cover;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  overflow: -moz-scrollbars-none;
+}
+
+body {
+  background-color: black;
+  font-family: arial;
+  background-image: url(../Images/rlbg2.jpg);
+   background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+ul.navigatie {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #353535;
+  width: 100vw;
+  background: rgba(0,0,0,0.7);
+}
+
+ul.navigatie li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #2696ff;
+}
+
+li a:hover:not(.active) {
+  background-color: rgba(255,255,255,0.2);
+}
+
+a.rlwebsite {
+  text-decoration: none;
+  color: blue;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+p.text {
+  text-align: left;
+  font-size: 30px;
+  margin: 50px 50px 50px 50px;
+}
+
+p.end {
+  text-align: center;
+  color: white;
+}
+
+
+h3 {
+  text-align: center;
+  font-size: 50px;
+}
+
+div.nav {
+  position: fixed;
+  margin: 0;
+}
+
+div.title {
+  padding-top: 75px;
+  width: 100vw;
+  height: 100px;
+  background: rgba(0,0,0,0.7);
+  border-bottom: double 10px white;
+}
+
+div.content {
+  padding: 40px;
+}
+
+div.contentback {
+  margin-top: 80vh;
+  width: 100vw;
+  height: 130vh;
+  border-bottom: double 20px black;
+  border-top: double 20px black;
+  background-color: rgba(255,255,255,0.9);
+}
+
+
+div.contentbackground {
+  padding: 500px;
+}
+
+div.vidcontent {
+  width: 100vw;
+  height: 700px;
+  padding: 50px;
+  border-bottom: double 10px white;
+  background-color: rgba(0,0,0,0.7);
+}
+
+ div.dlclist {
+  border: double black 10px;
+  border-radius: 20px;
+}
+
+li.dlc  {
+  list-style-type: circle;
+  font-size: 30px;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+  height: 450px; 
+  border: solid black 5px;
+  border-radius: 10px;
+  margin-top: 100px;
+  background-color: rgba(0,0,0,0.4);
+}
+
+img.dlcimg {
+  float: right;
+}
+
+table.updates {
+  margin: 0 auto;
+  font-size: 40px;
+  border-style: none solid none solid;
+  border-color: black;
+  border-width: 10px;
+  border-collapse: collapse;
+}
+
+table.updates th {
+  border: 2px solid black;
+}
+
+table.updates td {
+  border-bottom: 2px solid black;
+  padding: 20px 40px 20px 40px;
+}
+
+table.info {
+  margin: 0 auto;
+  font-size: 20px;
+  color: white;
+  border-style: none solid none solid;
+  border-color: black;
+  border-width: 5px;
+  border-collapse: collapse;
+  background-color: rgba(0,0,0,0.4);
+}
+
+table.info td {
+  border-bottom: 2px solid black;
+  padding: 20px 40px 20px 40px;
+}
+
+table.info th {
+  border: 2px solid black;
+}
+

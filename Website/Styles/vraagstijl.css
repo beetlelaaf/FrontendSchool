@@ -1,0 +1,30 @@
+body {
+  background-color: #eeeeff;
+}
+
+h1 {
+  color: #660099;
+}
+
+h2 {
+  color: #660099;
+  background-color: red;
+}
+
+p.vraag {
+  color: #660099;
+}
+
+p.antwoord {
+  color: yellow;
+  background-color: yellow;
+}
+
+p.antwoord:hover {
+  color: #660099;
+}
+
+p#uitleg {
+  text-align: right;
+  color: #660099;
+}

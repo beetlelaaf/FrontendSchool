@@ -1,0 +1,61 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="lab10.css">
+    <title>Lab10</title>
+</head>
+
+<body>
+    <div class="form">
+        <header>
+            <h2>Inschrijfformulier</h2>
+        </header>
+        <select required name="Cursussen">
+            <option value="" selected disabled>Kies een Cursus</option>
+            <option value="cur1">Cursus 1</option>
+            <option value="cur2">Cursus 2</option>
+            <option value="cur3">Cursus 3</option>
+            <option value="cur4">Cursus 4</option>
+        </select>
+        <br>
+        <select required name="Lokatie">
+            <option value="" selected disabled>Kies een Lokatie</option>
+            <option value="lok1">lokatie 1</option>
+            <option value="lok2">lokatie 2</option>
+            <option value="lok3">lokatie 3</option>
+            <option value="lok4">lokatie 4</option>
+        </select>
+        <h4>Begindatum:</h4>
+        <input class="date" type="date">
+        <form>
+            Selecteer Opleiding: 
+            BOL <input type="radio" name="opleiding" value="BOL" selected>
+            BBL <input type="radio" name="opleiding" value="BBL">
+        </form>
+
+        <input class="info" type="text" placeholder="Voornaam"><br>
+        <input class="info" type="text" placeholder="Achternaam"><br>
+        <input class="info" type="text" placeholder="Adres"><br>
+        <input class="info" type="text" placeholder="Woonplaats"><br>
+        <input class="info" type="text" placeholder="E-mail"><br>
+        <input class="info" type="text" placeholder="Mobiel"><br>
+
+        <p>Geef je voorkeur aan:</p>
+        <form>
+            Avondschool:
+            <input type="checkbox"><br>
+            Weekendschool:
+            <input type="checkbox"><br>
+            Geen voorkeur:
+            <input type="checkbox"><br>
+        </form>
+        <p>Wat is je opleidingsneveau</p>
+        <input class="slider" type="range">
+        <br>
+    </div>
+    <button type="submit">Verzend</button>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Calender</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="BS.css" <!-- eigen opmaak -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <!-- Javascripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!-- Project Files -->
+  <link rel="stylesheet" href="Year-Calendar-Bootstrap-4/jquery.bootstrap.year.calendar.css">
+  <script src="Year-Calendar-Bootstrap-4/jquery.bootstrap.year.calendar.js"></script>
+  <!--Title-->
+  <title>Calender</title>
+  <style type="text/css">
+    .btn-succes {
+      background-color: #00db20;
+      color: white;
+    }
+
+    .nav-tabs {
+      margin-bottom: 0;
+    }
+
+    #content {
+      margin-top: 40vh;
+      margin-bottom: 0;
+      padding: 50px 0px 50px 0px;
+      border-top: 10px double rgb(0, 0, 0);
+      height: auto;
+      background-color: rgba(255, 136, 0, 0.7)
+    }
+
+    html body {
+      margin-top: 5vh;
+      background-image: url("Images/calender.jpg");
+      height: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #title {
+      padding: 50px;
+      margin-top: 40vh;
+      color: white;
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 80px;
+      text-align: center;
+    }
+
+    th {
+      text-align: center;
+
+    }
+
+    .calendar {
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 0 20px 0 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg inverse navbar-light fixed-top bg-light">
+    <a class="navbar-brand" href="Bootstrap.html">
+      <img src="Images/robocraftlogo.png" alt="logo" style="width:35px; margin:0">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="Bootstrap.html">Home</a>
+        <a class="nav-item nav-link" href="Bootstrap-Gallery.html">Gallery</a>
+        <a class="nav-item nav-link active" href="#">Calender</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="calendar"></div>
+  </div>
+
+  <script>
+    $('.calendar').calendar();
+  </script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="jquery.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

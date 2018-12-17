@@ -1,0 +1,25 @@
+h1 {
+    margin: 0.5em 10% 0.5em 10%;
+    padding: 6px;
+    color: #99cc00;
+    background: #d9ffd9;
+}
+
+h3 {
+    padding: 1em 0.5em 0.1em 10%;
+    margin: 0.5em 10% 0.5em 10%;
+    color:  #d9ffd9;
+    background: #99cc00;
+}
+
+p {
+    margin: 0.5em 10% 0.5em 10%;
+    padding: 2px 10% 1px 20%;
+    color: #333333;
+    background: #d9ffd9; 
+}
+
+.video {
+    text-align: center;
+}
+ 

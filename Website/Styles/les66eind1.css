@@ -1,0 +1,50 @@
+/* Externe CSS File */
+
+body {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.image {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.video {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+p {
+    line-height: 130%;
+    text-indent: 1em;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    font-size: 250%;
+    font-weight: unset;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(../images/h-achtergrond.jpg)
+}
+
+h3 {
+    font-size: 180%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; 
+    font-weight: unset;
+    background-color: #3cfc32;
+}
+
+.content {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.allcontent {
+    margin-left: 20%;
+    margin-right: 20%;
+}

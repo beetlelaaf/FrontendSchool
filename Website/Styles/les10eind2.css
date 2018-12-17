@@ -1,0 +1,18 @@
+table.prijslijst {
+  background-color: white;
+  color: navy;
+  border: 4px solid black;
+  padding: 6px 24px 6px 24px
+}
+
+table.prijslijst th {
+  background-color: #80ccff;
+  color: black;
+  border: 1px solid #ff704d;
+}
+
+table.prijslijst td {
+  border: 1px solid #ff704d;
+  background-color: #80ccff;
+  padding: 6px 24px 6px 24px;
+}

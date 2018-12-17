@@ -1,0 +1,29 @@
+/* Externe CSS File */
+
+body {
+    
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.video {
+    text-align: center;
+}
+
+p {
+    line-height: 130%;
+    text-indent: 1em;
+    text-align: justify;
+}
+
+h1 {
+    text-align: right;
+    font-size: 250%;
+    font-weight: unset;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace
+}
+
+h3 {
+    font-size: 180%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

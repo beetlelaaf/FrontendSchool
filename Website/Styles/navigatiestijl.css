@@ -1,0 +1,25 @@
+ul.navigatie {
+  width: 45%;
+  border: 4px solid black;
+  background-color: lightgrey;
+  font-weight: bold;
+  padding: 0;
+}
+
+ul.navigatie li {
+  margin: 1px;
+  border: 2px solid red;
+  background-color: lightblue;
+  list-style: inside circle none;
+  display: inline;
+  border: red 2px solid;
+  margin: 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: white;
+}

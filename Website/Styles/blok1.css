@@ -1,0 +1,19 @@
+h1 {
+    border-color: navy blue navy blue;
+    border-width: 2em 2em 2em 2em;
+    border-style: inset inset inset inset;
+    border-radius: 50px;
+}
+
+h3 {
+    border-color: maroon;
+    border-width: 0.5em 4em 0em 4em;
+    border-style: dotted double none solid;
+}
+
+p {
+    border-color: white maroon white grey;
+    border-width: 0em 0.5em 0em 3em;
+    border-style: none solid none double;
+}
+
