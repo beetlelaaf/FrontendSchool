@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    font-weight: bold;
+    font-family: arial
+}
+
+div.form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: green 2px solid;
+    border-radius: 10px;
+    background-image: linear-gradient(red, orange, lime);
+}
+
+button {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 20%;
+    border: green 2px solid;
+    border-radius: 10px;
+    background-color: lime;
+}
+
+input.info {
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 50%;
+    opacity: 0.7;
+}
+
+input:hover {
+    opacity: 1;
+}
+
+input:focus-within {
+    opacity: 1;
+}
+
+input.date {
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 30%;
+}
+
+select {
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid green;
+    margin: 5px; 
+    font-size: 16px;
+}
+
+input.slider {
+    width: 30%;
+}
