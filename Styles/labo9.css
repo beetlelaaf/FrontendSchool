@@ -1,0 +1,13 @@
+th {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+td {
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 3px double black;
+}
+ table {
+     border: 3px double black;
+     background-image: linear-gradient(red, orange, lime);
+ }
